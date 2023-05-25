@@ -1,0 +1,48 @@
+.aboutPage {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(0, 228, 245), rgb(91, 120, 179));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15%
+}
+
+.aboutInfo {
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.aboutP {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.aboutHeading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.aboutSection {
+    
+}
+
+.pictureSection {
+    width: 400px;
+    height: 516px;
+    background-color: white;
+    /*border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);*/
+}

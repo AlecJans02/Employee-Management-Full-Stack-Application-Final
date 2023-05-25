@@ -1,0 +1,125 @@
+@import url(https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Achevron_right%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048);
+.Main {
+    background-image: linear-gradient(to right, rgb(0, 228, 245), rgb(91, 120, 179));
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: white;
+    width: 30vh;
+    height: 40vh;
+    min-width: 350px;
+    min-height: 450px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+}
+
+.formTitle {
+    color: #2c2c2c;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+.formMessage {
+    text-align: center;
+
+}
+
+.formInputGroup {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formInput {
+    width: 280px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    height: 40px;
+}
+
+.formInput:focus {
+    border-color: green;
+    background: white;
+}
+
+.formButton {
+    text-align: center;
+    background-color: limegreen;
+    border-radius: 4px;
+    width: 110px;
+    height: 35px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.buttonPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formText {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.formMessageIn {
+    text-align: center;
+    color: white;
+}
+
+.formInputErrorUser {
+    color: transparent;
+}
+
+.formInputErrorPassword {
+    color: transparent;         
+}
+
+formInputErrorUserFail {
+    color: red;
+}
+
+formInputErrorPasswordFail {
+    color: red;
+}
+
+.inputPosition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButton:active {
+    transform: scale(0.98);
+}
+
+.HomepageUl {
+    list-style-type: none;
+    margin-top: 40px;
+    display: inline;
+    
+}
+
+.HomepageLi {
+    list-style-type: none;
+    text-align: center;
+}

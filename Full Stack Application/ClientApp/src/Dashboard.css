@@ -1,0 +1,160 @@
+@import url(https://fonts.google.com/icons?selected=Material%20Symbols%20Outlined%3Achevron_right%3AFILL%400%3Bwght%40400%3BGRAD%400%3Bopsz%4048);
+.mainDashboard {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dashboardDateAndClock {
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #1D252C;
+    margin-top: 70px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.dashboardTasksOverlay {
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #1D252C;
+    margin-top: 70px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.dashboardStoreOverlay {
+    height: 20%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #1D252C;
+    margin-top: 70px;
+    overflow: hidden;
+    color: #fff;
+}
+
+
+.taskButton {
+    align-items: center;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.taskh3 {
+    font-size: 0.8vw;
+    text-align: center;
+}
+
+.locationh3 {
+    font-size: 0.6vw;
+    text-align: center;
+}
+
+.taskh1 {
+    text-align: center;
+}
+
+.storeh1 {
+    text-align: center;
+}
+
+.dashboardButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dashLinkStyle {
+    text-decoration: none;
+}
+
+.dashboardCalender {
+    width: 80%;
+    height: 50%;
+    background-color: #1D252C;
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.calenderh3 {
+    font-size: 37px;
+    font-weight: 900;
+    margin: 0 0 1rem;
+}
+
+.mainCalender ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.monthAndArrows {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.mainCalender ul li {
+    width: calc(100% / 7);
+    margin-top: 20px;
+}
+
+.mainCalender {
+    margin-top: 30px;
+}
+
+.weeks {
+    font-weight: 700;
+}
+
+.days li.inactive {
+    color: #aaa;
+}
+
+.days li.active {
+    color: lightgreen;
+    font-weight: 800;
+}
+
+.calenderP {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.days li {
+    font-weight: 600;
+}

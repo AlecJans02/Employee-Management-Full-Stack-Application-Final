@@ -1,0 +1,89 @@
+.storePage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.storeDisplay {
+    height: 70%;
+    width: 80%;
+    background-color: #1D252C;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.storeNav {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+
+.storeUl {
+    list-style: none;
+}
+
+.storeLi {
+    list-style: none;
+    align-items: center;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.storeEmployees {
+    height: 100%;
+    width: 25%;
+    background-color: blue;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;    
+}
+
+.storeRoster {
+    height: 100%;
+    width: 75%;
+    background-color: greenyellow;
+    align-self: flex-end;
+}
+
+.storeBottom {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.employeeButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.employeeInputDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.employeeForm {
+    background-color: red;
+    height: 30%;
+    width: 90%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.employeeP {
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px; 
+    margin-top: 20px;
+}
